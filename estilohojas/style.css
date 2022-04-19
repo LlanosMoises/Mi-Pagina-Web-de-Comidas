@@ -1,0 +1,38 @@
+.conten {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap: .3em;;
+}
+.header {
+    grid-column: 1 / -1;
+    text-align: center;
+
+    /* border:  2px solid red; */
+    background-color: darkorange;
+}
+.nav {
+    grid-column: 1 / -1;
+    text-align: center;
+
+    background-color: darkorange;
+}
+
+.aside{
+    grid-column: 1 / 2;
+    background-color: darkorange;
+}
+
+.section{
+    grid-column: 2/-1;
+    background-color: rgb(21, 8, 138);
+    color: floralwhite;
+    padding: 1em;
+}
+
+.footer{
+    grid-column: 1 / -1;
+    text-align: center;
+
+    background-color: rgb(17, 17, 16);
+    color: floralwhite;
+}
