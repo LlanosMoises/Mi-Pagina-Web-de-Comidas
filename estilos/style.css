@@ -27,7 +27,7 @@
     background-color: rgb(9, 4, 56);
     color: floralwhite;
     padding: 1em;
-}
+    
 
 .footer{
     grid-column: 1 / -1;
